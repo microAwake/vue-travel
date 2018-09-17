@@ -1,0 +1,24 @@
+//设置轮播图小圆点指示器颜色
+.mint-swipe-indicator{
+  background-color: white;
+}
+.mint-swipe-indicator.is-active{
+  background-color: #eee;
+}
+
+.changeBgcolor{
+  background-color: white;
+}
+
+//一行文字多以省略号结束
+.ellipsis{
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+//加上router-link时，会变成比较浅的颜色，加上aColor类使其变为white
+.aColor{
+  color: white;
+}
